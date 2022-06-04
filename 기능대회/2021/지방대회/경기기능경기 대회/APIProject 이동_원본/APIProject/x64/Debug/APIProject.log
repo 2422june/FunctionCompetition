@@ -1,3 +1,0 @@
-﻿  WinMain.cpp
-C:\Users\012\Desktop\APIProject 이동\APIProject\WinMain.cpp(45,37): warning C4244: '인수': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  APIProject.vcxproj -> C:\Users\012\Desktop\APIProject 이동\x64\Debug\APIProject.exe

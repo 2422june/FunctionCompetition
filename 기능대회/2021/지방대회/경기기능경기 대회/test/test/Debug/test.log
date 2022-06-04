@@ -1,3 +1,0 @@
-﻿  test.cpp
-C:\Users\012\Desktop\경기기능경기 대회\test\test\test.cpp(2,9): warning C4068: 알 수 없는 pragma 'commet'
-C:\Users\012\Desktop\경기기능경기 대회\test\test\test.cpp(15,37): error C2065: 'Lpath': 선언되지 않은 식별자입니다.
