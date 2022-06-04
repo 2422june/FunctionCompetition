@@ -1,0 +1,22 @@
+﻿  Application.cpp
+\\hare_pc\share\a002\a002\a002\Header.h(16): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9core.h': No such file or directory
+  Bullet.cpp
+\\hare_pc\share\a002\a002\a002\Header.h(16): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9core.h': No such file or directory
+  Effect.cpp
+\\hare_pc\share\a002\a002\a002\Header.h(16): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9core.h': No such file or directory
+  Enemy.cpp
+\\hare_pc\share\a002\a002\a002\Header.h(16): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9core.h': No such file or directory
+  Game.cpp
+\\hare_pc\share\a002\a002\a002\Header.h(16): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9core.h': No such file or directory
+  GameScene.cpp
+\\hare_pc\share\a002\a002\a002\Header.h(16): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9core.h': No such file or directory
+  Player.cpp
+\\hare_pc\share\a002\a002\a002\Header.h(16): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9core.h': No such file or directory
+  Num.cpp
+\\hare_pc\share\a002\a002\a002\Header.h(16): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9core.h': No such file or directory
+  Sprite.cpp
+\\hare_pc\share\a002\a002\a002\Header.h(16): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9core.h': No such file or directory
+  Texture.cpp
+\\hare_pc\share\a002\a002\a002\Header.h(16): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9core.h': No such file or directory
+  UI.cpp
+\\hare_pc\share\a002\a002\a002\Header.h(16): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9core.h': No such file or directory
