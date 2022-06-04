@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\FrameWork">
+      <UniqueIdentifier>{2fff8864-4b96-4cac-821c-ff721aed4566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FrameWork\Application">
+      <UniqueIdentifier>{bd0cb3b4-0284-48b1-9b42-82c3050726c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FrameWork\Texture">
+      <UniqueIdentifier>{093083bf-4e86-4579-907e-d14547c68de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FrameWork\Sprite">
+      <UniqueIdentifier>{0d378696-f843-4315-b8d6-a32130af44c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FrameWork\Loading">
+      <UniqueIdentifier>{c05e0e49-0e7a-4868-9784-599a8e86b7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FrameWork\GameScene">
+      <UniqueIdentifier>{7c79366e-0f94-4f16-83c6-79ad79d8796a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FrameWork\Game">
+      <UniqueIdentifier>{f6705e31-30ff-4ea4-a0c1-de0ebfea365f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{1f507683-55a1-4863-9025-1f84ebc1a9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Intro">
+      <UniqueIdentifier>{cd4015b9-219d-4afb-9c9e-a05a50ed4d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Menu">
+      <UniqueIdentifier>{aac262f8-01a1-4f3b-ab14-e298bfa11ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage1">
+      <UniqueIdentifier>{886e14ab-1bef-4ea7-95e0-fb89714eabb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Character">
+      <UniqueIdentifier>{f7af5254-c745-4905-ae4b-589a06b80b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Character\Player">
+      <UniqueIdentifier>{be0871e6-c08a-44d6-b506-bccb1d10ff49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Game.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTon.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>소스 파일\FrameWork\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\FrameWork\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>소스 파일\FrameWork\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>소스 파일\FrameWork\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>소스 파일\FrameWork\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일\FrameWork\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>소스 파일\Scene\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>소스 파일\Scene\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>소스 파일\Scene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Character\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>소스 파일\FrameWork\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\FrameWork\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>소스 파일\FrameWork\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>소스 파일\FrameWork\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\FrameWork\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\FrameWork\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>소스 파일\Scene\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>소스 파일\Scene\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>소스 파일\Scene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Character\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

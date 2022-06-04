@@ -1,0 +1,48 @@
+pla.cpp의 불렛 렌더링, 업데이트 살피기
+it = _Bullet.erase(it);
+
+
+map.cpp의 맵 업데이트와 이동 사이의 로직을 통한 끊김 방지
+
+if (_map1._pos.y >= 768){
+	_map1._pos.y = _map2._pos.y - 768;
+}
+if (_map2._pos.y >= 768)
+{
+	_map2._pos.y = _map1._pos.y - 768;
+}
+
+
+
+gameScene과 Scene를 부모자식 관계로 둔 이유
+
+camera의 용도
+
+추격
+x = target._pos.x - _player->_sprite._pos.x;
+y = target._pos.y - _player->_sprite._pos.y;
+
+
+회전
+D3DXVECTOR2 _dir =
+D3DXVECTOR2(
+	(*i)->_sprite._pos.x - _player->_sprite._pos.x,
+	(*i)->_sprite._pos.y - _player->_sprite._pos.y);
+
+(*i)->_sprite._rotate = 90 + D3DXToDegree(atan2(_dir.y, _dir.x));
+
+
+저격
+_eneBullet.push_back(new Bullet((*i)->_sprite._pos, _dir *-1, 400, (*i)->_damage));
+
+십자 
+_eneBullet.push_back(new Bullet((*i)->_sprite._pos, _dir * -1, 400, (*i)->_damage));
+_eneBullet.push_back(new Bullet((*i)->_sprite._pos, D3DXVECTOR2(_dir.y, _dir.x * -1), 400, (*i)->_damage));
+_eneBullet.push_back(new Bullet((*i)->_sprite._pos, D3DXVECTOR2(_dir.x, _dir.y), 400, (*i)->_damage));
+_eneBullet.push_back(new Bullet((*i)->_sprite._pos, D3DXVECTOR2(_dir.y * -1, _dir.x), 400, (*i)->_damage));
+
+
+사운드
+PlaySound(TEXT("Img/Main.wav"), 0, SND_ASYNC);
+PlaySound(NULL)
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=whcktnr&logNo=220716390663
