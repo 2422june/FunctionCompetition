@@ -1,0 +1,34 @@
+﻿1>------ 빌드 시작: 프로젝트: Terraformars, 구성: Debug Win32 ------
+1>  CPlayer.cpp
+1>c:\users\stein\documents\visual studio 2015\projects\terraformars\terraformars\cplayer.cpp(33): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+1>c:\users\stein\documents\visual studio 2015\projects\terraformars\terraformars\cplayer.cpp(65): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+1>c:\users\stein\documents\visual studio 2015\projects\terraformars\terraformars\cplayer.cpp(154): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+1>  CItem.cpp
+1>c:\users\stein\documents\visual studio 2015\projects\terraformars\terraformars\citem.cpp(43): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+1>  코드를 생성하고 있습니다...
+1>  컴파일하고 있습니다...
+1>  CFirstScene.cpp
+1>c:\users\stein\documents\visual studio 2015\projects\terraformars\terraformars\cfirstscene.cpp(27): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+1>c:\users\stein\documents\visual studio 2015\projects\terraformars\terraformars\cfirstscene.cpp(52): warning C4554: '&': 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+1>c:\users\stein\documents\visual studio 2015\projects\terraformars\terraformars\cfirstscene.cpp(222): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+1>c:\users\stein\documents\visual studio 2015\projects\terraformars\terraformars\cfirstscene.cpp(226): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+1>c:\users\stein\documents\visual studio 2015\projects\terraformars\terraformars\cfirstscene.cpp(231): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+1>c:\users\stein\documents\visual studio 2015\projects\terraformars\terraformars\cfirstscene.cpp(236): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+1>  코드를 생성하고 있습니다...
+1>  건너뛰고 있습니다... (관련된 변경 내용 없음)
+1>  Texture.cpp
+1>  Sprite.cpp
+1>  Game.cpp
+1>  CUI.cpp
+1>  CTitleScene.cpp
+1>  CMilssile.cpp
+1>  CHowPlayScene.cpp
+1>  CEnemy.cpp
+1>  CEffect.cpp
+1>  CCutScene.cpp
+1>  CBullet.cpp
+1>  CBoss.cpp
+1>  CBlack.cpp
+1>  Application.cpp
+1>  Terraformars.vcxproj -> C:\Users\Stein\Documents\Visual Studio 2015\Projects\Terraformars\Debug\Terraformars.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========

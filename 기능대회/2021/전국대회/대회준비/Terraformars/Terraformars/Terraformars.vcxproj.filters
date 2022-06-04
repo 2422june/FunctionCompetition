@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\CPlayer">
+      <UniqueIdentifier>{e8ccbaac-27bd-49d9-b5a7-7dbe5710cf47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CBullet">
+      <UniqueIdentifier>{f770131f-b93d-4978-a90c-98d276bf6b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CEnemy">
+      <UniqueIdentifier>{c2775feb-6070-4d37-a06a-e00c7f360299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CBlack">
+      <UniqueIdentifier>{bb7a3c4f-eac2-44b7-a881-2966f8305fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{3df4c413-c4d2-41c6-aa5f-3dd087032caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\CFirstScene">
+      <UniqueIdentifier>{247320aa-6b69-4218-8b04-da128e9eeb99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\CTitleScene">
+      <UniqueIdentifier>{408a0e0a-d55c-4cb2-b339-fe113041752b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\CHowPlayScene">
+      <UniqueIdentifier>{990c30c4-91ee-42c0-ab38-dbf2780847bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CItem">
+      <UniqueIdentifier>{1c709a91-865f-497e-b2f5-afff7560ef07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CUI">
+      <UniqueIdentifier>{9c19fbf2-e9f3-406d-9ae2-93a8e4538819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CUI\CutScene">
+      <UniqueIdentifier>{19e84b7f-2ca3-4f2e-b8ad-3ead35b1b6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CEffect">
+      <UniqueIdentifier>{ff34d583-6d81-49d4-a54f-3b5684a43e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\CRank">
+      <UniqueIdentifier>{562d8977-408b-4a28-ae88-c8e3bf723b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CMap">
+      <UniqueIdentifier>{d6d6e0db-8c8b-4c84-bf61-dc575e9725ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\CSecondScene">
+      <UniqueIdentifier>{28835ec0-4512-43f5-8002-66e6c574865e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CUI\EndScene">
+      <UniqueIdentifier>{faed9f4f-9ac5-43ad-be16-81d1c3c41e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\CIntro">
+      <UniqueIdentifier>{9fa1112c-d361-4cc0-aeb5-4550f46e1607}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTon.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CFirstScene.h">
+      <Filter>소스 파일\Scene\CFirstScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>소스 파일\CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet.h">
+      <Filter>소스 파일\CBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemy.h">
+      <Filter>소스 파일\CEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlack.h">
+      <Filter>소스 파일\CBlack</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleScene.h">
+      <Filter>소스 파일\Scene\CTitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CHowPlayScene.h">
+      <Filter>소스 파일\Scene\CHowPlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissile.h">
+      <Filter>소스 파일\CBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>소스 파일\CItem</Filter>
+    </ClInclude>
+    <ClInclude Include="CCutScene.h">
+      <Filter>소스 파일\CUI\CutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>소스 파일\CUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss.h">
+      <Filter>소스 파일\CEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffect.h">
+      <Filter>소스 파일\CEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="CNum.h">
+      <Filter>소스 파일\CUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CRankScene.h">
+      <Filter>소스 파일\Scene\CRank</Filter>
+    </ClInclude>
+    <ClInclude Include="CMap.h">
+      <Filter>소스 파일\CMap</Filter>
+    </ClInclude>
+    <ClInclude Include="CRankShowScene.h">
+      <Filter>소스 파일\Scene\CRank</Filter>
+    </ClInclude>
+    <ClInclude Include="CSecondScene.h">
+      <Filter>소스 파일\Scene\CSecondScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>소스 파일\CUI\EndScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CIntro.h">
+      <Filter>소스 파일\Scene\CIntro</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CFirstScene.cpp">
+      <Filter>소스 파일\Scene\CFirstScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>소스 파일\CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CBullet.cpp">
+      <Filter>소스 파일\CBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy.cpp">
+      <Filter>소스 파일\CEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlack.cpp">
+      <Filter>소스 파일\CBlack</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleScene.cpp">
+      <Filter>소스 파일\Scene\CTitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CHowPlayScene.cpp">
+      <Filter>소스 파일\Scene\CHowPlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CMilssile.cpp">
+      <Filter>소스 파일\CBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>소스 파일\CItem</Filter>
+    </ClCompile>
+    <ClCompile Include="CCutScene.cpp">
+      <Filter>소스 파일\CUI\CutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>소스 파일\CUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss.cpp">
+      <Filter>소스 파일\CEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffect.cpp">
+      <Filter>소스 파일\CEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="CNum.cpp">
+      <Filter>소스 파일\CUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CRankScene.cpp">
+      <Filter>소스 파일\Scene\CRank</Filter>
+    </ClCompile>
+    <ClCompile Include="CMap.cpp">
+      <Filter>소스 파일\CMap</Filter>
+    </ClCompile>
+    <ClCompile Include="CRankShowScene.cpp">
+      <Filter>소스 파일\Scene\CRank</Filter>
+    </ClCompile>
+    <ClCompile Include="CSecondScene.cpp">
+      <Filter>소스 파일\Scene\CSecondScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>소스 파일\CUI\EndScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CIntro.cpp">
+      <Filter>소스 파일\Scene\CIntro</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
