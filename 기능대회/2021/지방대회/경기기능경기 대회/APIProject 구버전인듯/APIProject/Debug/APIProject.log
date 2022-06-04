@@ -1,0 +1,9 @@
+﻿  Bullet.cpp
+  Plane.cpp
+  WinMain.cpp
+C:\Users\012\Desktop\경기기능경기 대회\APIProject\APIProject\WinMain.cpp(26,6): warning C4101: 'hDC' :참조되지 않은 지역 변수입니다.
+C:\Users\012\Desktop\경기기능경기 대회\APIProject\APIProject\WinMain.cpp(58,27): warning C4244: '인수': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\012\Desktop\경기기능경기 대회\APIProject\APIProject\WinMain.cpp(59,27): warning C4244: '인수': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\012\Desktop\경기기능경기 대회\APIProject\APIProject\WinMain.cpp(60,27): warning C4244: '인수': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  APIProject.vcxproj -> C:\Users\012\Desktop\경기기능경기 대회\APIProject\Debug\APIProject.exe
