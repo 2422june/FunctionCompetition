@@ -1,0 +1,28 @@
+깃 이그노어
+
+기본적인 메타파일 지정
+
+------------------------------
+
+원격 저장소 : 사이트
+
+스테이지 : 임시 저장소
+
+------------------------------
+
+인트로 필수 생성
+
+------------------------------
+ void Update()
+    {
+        _currentPos.y -= _moveDownSpeed * Time.deltaTime;
+        Vector3 v = _currentPos;
+        v.x += _moveDelta * Mathf.Sin(Time.time * _moveSpeed);
+        transform.position = v;
+}
+------------------------------
+matarial rendering mode에서 transparent(?)를 사용하면 투명도를 조정할 수 있다.
+
+마테리얼 전환
+저장
+오브젝트 풀링
